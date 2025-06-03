@@ -12,7 +12,7 @@ Players = cloneref(game:GetService("Players"))
 if not game:IsLoaded() then
     local notLoaded = Instance.new("Message")
     notLoaded.Parent = COREGUI
-    notLoaded.Text = "SYSMAX TEAM"
+    notLoaded.Text = "SYSMAX TEAM "
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
@@ -235,7 +235,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "SYSMAX TEAM" .. currentVersion
+Title.Text = "SYSMAX TEAM " .. currentVersion
 
 do
 	local emoji = ({
@@ -12491,7 +12491,7 @@ task.spawn(function()
 	end)
 	
 	if success then
-			notify('SS','Aproveite Shnmax em forma do IY!')
+			notify('SS','Aproveite Sysmax em forma do IY!')
 		
 		
 		if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
