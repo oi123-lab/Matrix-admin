@@ -12,7 +12,7 @@ Players = cloneref(game:GetService("Players"))
 if not game:IsLoaded() then
     local notLoaded = Instance.new("Message")
     notLoaded.Parent = COREGUI
-    notLoaded.Text = "MATRIX ADMIN : BY MATRIX COMMUNITY"
+    notLoaded.Text = "SYSMAX TEAM"
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
@@ -235,7 +235,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "MATRIX : BY MATRIX COMMUNITY" .. currentVersion
+Title.Text = "SYSMAX TEAM" .. currentVersion
 
 do
 	local emoji = ({
@@ -12591,5 +12591,5 @@ task.spawn(function()
 	Logo:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
-	--if table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) then notify("Unstable Device", "ShnmaxScripts Admin Carregado!") end
+	--if table.find({Enum.Platform.IOS, Enum.Platform.Android}, UserInputService:GetPlatform()) then notify("Unstable Device", "Sysmax Team Admin Carregado!") end
 end)
